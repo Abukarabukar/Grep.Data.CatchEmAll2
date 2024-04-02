@@ -4,7 +4,7 @@ In the forest, our scanners have detected the presence of pokemon.
 
 ### Part 1: Catch 'em
 - **a)** In the answers file, found in the greps directory, show the grep statement you used to catch each pokemon and save to a txt file, in the format `[pokemon name].txt`
-
+1
 - **b)** 
 Save the each pokemon as a separate `.txt` file in the `captured` directory.
 
