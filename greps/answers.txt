@@ -1,37 +1,100 @@
 # Part 1
 ### a)
-
-
+grep -p "bulb" filescan_00.1
+grep -p "blas" filescan_00.1
+grep -p "butt" filescan_00.1
+grep -p "beed" filescan_00.1
+grep -p "izard" filescan_00.2
+grep -p "mander" filescan_00.2
+grep -p "meleon" filescan_00.2
+grep -p "ivys" filescan_00.3
+grep -p "jigg" filescan_00.3
+grep -p "meow" filescan_00.3
+grep -p "pi" filescan_00.3
+grep -p "psyd" filescan_00.4
+grep -p "squi" filescan_00.4
+grep -p "venu" filescan_00.4
+grep -p "wart" filescan_00.4
 
 
 ### b)
+grep -p "bulb" filescan_00.1 >/Users/abukar/Projects/Grep.Data.CatchEmAll2/captured/Bulbassaur.txt
 
+grep -p "blas" filescan_00.1>/Users/abukar/Projects/Grep.Data.CatchEmAll2/captured/Blesstoise.txt
+
+grep -p "butt" filescan_00.1>/Users/abukar/Projects/Grep.Data.CatchEmAll2/captured/Butterfree.txt
+
+grep -p "beed" filescan_00.1>/Users/abukar/Projects/Grep.Data.CatchEmAll2/captured/Beedrill.txt
+
+grep -p "izard" filescan_00.2>/Users/abukar/Projects/Grep.Data.CatchEmAll2/captured/Charizard.txt
+
+grep -p "mander" filescan_00.2>/Users/abukar/Projects/Grep.Data.CatchEmAll2/captured/Charmander.txt
+
+grep -p "meleon" filescan_00.2>/Users/abukar/Projects/Grep.Data.CatchEmAll2/captured/Charmeleon.txt
+
+grep -p "ivys" filescan_00.3>/Users/abukar/Projects/Grep.Data.CatchEmAll2/captured/Ivysaur.txt
+
+grep -p "jigg" filescan_00.3>/Users/abukar/Projects/Grep.Data.CatchEmAll2/captured/Jigglypuff.txt
+
+grep -p "meow" filescan_00.3>/Users/abukar/Projects/Grep.Data.CatchEmAll2/captured/Meowth.txt
+
+grep -p "pi" filescan_00.3>/Users/abukar/Projects/Grep.Data.CatchEmAll2/captured/Pikachu.txt
+
+grep -p "psyd" filescan_00.4>/Users/abukar/Projects/Grep.Data.CatchEmAll2/captured/psyduck.txt
+
+grep -p "squi" filescan_00.4>/Users/abukar/Projects/Grep.Data.CatchEmAll2/captured/Squirtle.txt
+
+grep -p "venu" filescan_00.4>/Users/abukar/Projects/Grep.Data.CatchEmAll2/captured/Venusaur.txt
+
+grep -p "wart" filescan_00.4>/Users/abukar/Projects/Grep.Data.CatchEmAll2/captured/Wartortle.txt
 
 
 ### c)
+1. filescan_00.1
 
+Bulbassaur
+Blesstoise
+Butterfree
+Beedrill
 
+2. filescan_00.2
 
+Charizard
+Charmander
+Charmeleon
 
+3. filescan_00.3
 
+Ivysaur
+Jigglypuff
+Meowth
+Pikachu
 
+4.filescan_00.3
 
-
-
-
-
-
+Squirtle
+psyduck
+Venusaur
+Wartortle
 
 # Part 2
 ### a)
-
+I found 15 pokemons in the forest.
+ls -l . | egrep -c '^-'
 
 
 
 
 
 ### b)
+The biggest Pokemons are:
+1. Beedrill
+2. Charizard
+3. Pikachu
 
+
+I used this command:
+wc -l ./*
 
 
 
